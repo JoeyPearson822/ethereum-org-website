@@ -62,7 +62,7 @@ To prevent malicious withdrawals, a "challenge period" is introduced. During the
 
 However, it is usually the case that users are honest and make correct claims about the funds they own. In this scenario, Alice will initiate a withdrawal request on the root chain (Ethereum) by submitting a transaction to the plasma contract.
 
-She must also provide a Merkle proof verifying that a transaction creating her funds on the Plasma chain was included in a block. This is necessary for iterations of Plasma, such as [Plasma MVP](https://www.learnplasma.org/en/learn/mvp.html), that use a [Unspent Transaction Output (UTXO)](https://en.wikipedia.org/wiki/Unspent_transaction_output) model.
+She must also provide a Merkle proof verifying that a transaction creating her funds on the Plasma chain was included in a block. This is necessary for iterations of Plasma, such as [Plasma MVP](https://www.learnplasma.org/en/learn/mvp.html), that use an [Unspent Transaction Output (UTXO)](https://en.wikipedia.org/wiki/Unspent_transaction_output) model.
 
 Others, like [Plasma Cash](https://www.learnplasma.org/en/learn/cash.html), represent funds as [non-fungible tokens](/developers/docs/standards/tokens/erc-721/) instead of UTXOs. Withdrawing, in this case, requires proof of ownership of tokens on the Plasma chain. This is done by submitting the two latest transactions involving the token and providing a Merkle proof verifying the inclusion of those transactions in a block.
 
