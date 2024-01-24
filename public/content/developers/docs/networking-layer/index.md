@@ -17,7 +17,7 @@ Some knowledge of Ethereum [nodes and clients](/developers/docs/nodes-and-client
 
 ## The Execution Layer {#execution-layer}
 
-The execution layer's networking protocols is divided into two stacks:
+The execution layer's networking protocol is divided into two stacks:
 
 - the discovery stack: built on top of UDP and allows a new node to find peers to connect to
 
