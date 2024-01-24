@@ -126,7 +126,7 @@ While Plasma was once considered a useful scaling solution for Ethereum, it has 
 
 Another problem with the plasma framework was [the inability to support the execution of Ethereum smart contracts](https://ethresear.ch/t/why-smart-contracts-are-not-feasible-on-plasma/2598/4). As a result, most implementations of Plasma were mostly built for simple payments or the exchange of ERC-20 tokens.
 
-Conversely, optimistic rollups, are compatible with the [Ethereum Virtual Machine](/developers/docs/evm/) and can run Ethereum-native [smart contracts](/developers/docs/smart-contracts/), making them a useful and _secure_ solution for scaling [decentralized applications](/developers/docs/dapps/). Similarly, plans are underway to [create a zero-knowledge implementation of the EVM (zkEVM)](https://ethresear.ch/t/a-zk-evm-specification/11549) that would allow ZK-rollups to process arbitrary logic and execute smart contracts.
+Conversely, optimistic rollups are compatible with the [Ethereum Virtual Machine](/developers/docs/evm/) and can run Ethereum-native [smart contracts](/developers/docs/smart-contracts/), making them a useful and _secure_ solution for scaling [decentralized applications](/developers/docs/dapps/). Similarly, plans are underway to [create a zero-knowledge implementation of the EVM (zkEVM)](https://ethresear.ch/t/a-zk-evm-specification/11549) that would allow ZK-rollups to process arbitrary logic and execute smart contracts.
 
 ### Data unavailability {#data-unavailability}
 
