@@ -35,7 +35,7 @@ Secret key files are stored directly in `~/.web3/keystore` (for Unix-like system
 
 All such files have an associated password. To derive a given `.json` file's secret key, first derive the file's encryption key; this is done through taking the file's password and passing it through a key derivation function as described by the `kdf` key. KDF-dependent static and dynamic parameters to the KDF function are described in `kdfparams` key.
 
-PBKDF2 must be supported by all minimally-compliant implementations, denoted though:
+PBKDF2 must be supported by all minimally-compliant implementations, denoted through:
 
 - `kdf`: `pbkdf2`
 
